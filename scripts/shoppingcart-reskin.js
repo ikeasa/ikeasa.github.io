@@ -41,7 +41,6 @@
             // baseURL +
             // 'static/nav-menu.2abb45a57649541b487c058051104b29.svg" alt="Menü" title="Menü"></div><span class="header__icon-list-item-text">Menü</span></a></li>' +
             '</ul></nav></div>';
-            console.log(headerContent);
         // insert header HTML code into page
         $body.prepend(jQuery('<header id="m2-navigation" class="header" role="banner">' + headerContent + '</header>'));
 
@@ -62,7 +61,7 @@
         }
 
         var currentYear = new Date().getFullYear();
-
+        console.log(currentYear);
         /**
          * Replaces the old IRW footer with a new M2 footer
          */
