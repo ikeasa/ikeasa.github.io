@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-    const lang = document.documentElement.lang.toLocaleLowerCase().split('-');
+    const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
     
     function ready(fn) {
       if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
@@ -11,11 +11,11 @@
     }
 
     function modifyHeaderFooter() {
-        const lang = (lang[0] == 'ar')? 'ar' : 'en';
+        const lang = (langs[0] == 'ar')? 'ar' : 'en';
 
-        var baseURL = 'https://www.ikea.com/sa/' + lang + '/',
+        const baseURL = 'https://www.ikea.com/sa/' + lang + '/',
             $body = jQuery('body');
-        var localStorageSetval = localStorage.getItem('setval') || null;
+        //var localStorageSetval = localStorage.getItem('setval') || null;
 
         // HTML code taken from M2 homepage
         var headerContent =
