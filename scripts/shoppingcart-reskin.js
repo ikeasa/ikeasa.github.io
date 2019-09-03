@@ -1,5 +1,5 @@
-(function() {
-    'use strict';
+//(function() {
+    //'use strict';
     const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
     
     function ready(fn) {
@@ -201,4 +201,4 @@
         // }
 
     });
-})();
+//})();
