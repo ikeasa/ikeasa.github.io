@@ -1,6 +1,7 @@
 //(function() {
     //'use strict';
     console.log('test');
+    
     const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
     
     function ready(fn) {
@@ -162,6 +163,7 @@
             document.location.pathname.indexOf('/wcs/stores/servlet/OrderItemDisplayMobile') > -1 ||
             document.location.pathname.indexOf('/wcs/stores/servlet/mOrderItemDisplayView') > -1
         ) {
+          console.log('here');
             // add a viewport meta tag to enable correct display on mobile devices
             var viewPortTag = document.createElement('meta');
             viewPortTag.id = 'viewport';
