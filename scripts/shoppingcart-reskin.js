@@ -1,7 +1,15 @@
 (function() {
     'use strict';
     const lang = document.documentElement.lang.toLocaleLowerCase().split('-');
-  
+    
+    function ready(fn) {
+      if (document.attachEvent ? document.readyState === 'complete' : document.readyState !== 'loading') {
+        fn();
+      } else {
+        document.addEventListener('DOMContentLoaded', fn);
+      }
+    }
+
     function modifyHeaderFooter() {
         const lang = (lang[0] == 'ar')? 'ar' : 'en';
 
