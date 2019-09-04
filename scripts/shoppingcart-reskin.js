@@ -24,9 +24,16 @@
       var checkoutbuttonTop = document.querySelector("#checkoutButtonBoxTop input[type='submit']");
       var checkoutbuttonBottom = document.querySelector("#checkoutButtonBoxBottom input[type='submit']");
 
-      document.querySelector("#shopRowTop").action = newCheckoutLink;
-      document.querySelector("#shopRowBottom").action = newCheckoutLink;
-
+      const shopRowTop = document.querySelector("#shopRowTop");
+      if (shopRowTop) {
+        shopRowTop.action = newCheckoutLink;
+      }
+      
+      const shopRowBottom = document.querySelector("#shopRowBottom");
+      if (shopRowBottom) {
+        shopRowBottom.action = newCheckoutLink;
+      }
+      
       checkoutbuttonTop.onclick = function () {
           var changeForm = document.querySelector("#shopRowTop");
           changeForm.action = newCheckoutLink;
