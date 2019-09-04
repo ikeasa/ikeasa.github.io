@@ -21,32 +21,33 @@
   var newCheckoutLink = "https://securema.ikea.com/ksawebapp/checkout";
   if (window.location.href.indexOf("mcommerce/shoppingcart") > -1 || window.location.href.indexOf("webapp/wcs/stores/servlet/OrderItemDisplayMobile") > -1) {
 
-      var checkoutbuttonTop = document.querySelector("#checkoutButtonBoxTop input[type='submit']");
-      var checkoutbuttonBottom = document.querySelector("#checkoutButtonBoxBottom input[type='submit']");
-
-      const shopRowTop = document.querySelector("#shopRowTop");
-      if (shopRowTop) {
+    const shopRowTop = document.querySelector("#shopRowTop");
+    if (shopRowTop) {
         shopRowTop.action = newCheckoutLink;
-      }
-      
-      const shopRowBottom = document.querySelector("#shopRowBottom");
-      if (shopRowBottom) {
-        shopRowBottom.action = newCheckoutLink;
-      }
-      
+    }
+    
+    const shopRowBottom = document.querySelector("#shopRowBottom");
+    if (shopRowBottom) {
+      shopRowBottom.action = newCheckoutLink;
+    }
+    
+    var checkoutbuttonTop = document.querySelector("#checkoutButtonBoxTop input[type='submit']");
+    if (checkoutbuttonTop) {
       checkoutbuttonTop.onclick = function () {
-          var changeForm = document.querySelector("#shopRowTop");
-          changeForm.action = newCheckoutLink;
-          changeForm.submit();
+        var changeForm = document.querySelector("#shopRowTop");
+        changeForm.action = newCheckoutLink;
+        changeForm.submit();
       };
-
+    }
+    
+    var checkoutbuttonBottom = document.querySelector("#checkoutButtonBoxBottom input[type='submit']");
+    if (checkoutbuttonBottom) {
       checkoutbuttonBottom.onclick = function () {
-          var changeForm = document.querySelector("#shopRowBottom");
-          changeForm.action = newCheckoutLink;
-          changeForm.submit();
-
+        var changeForm = document.querySelector("#shopRowBottom");
+        changeForm.action = newCheckoutLink;
+        changeForm.submit();
       };
-
+    }
   }
   // My Account Script Start
   var grabtag = document.createElement('button');
