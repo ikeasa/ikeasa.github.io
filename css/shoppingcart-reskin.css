@@ -1,6 +1,4 @@
-/* restyle mcommerce shopping bag */
-
-#main #ppContentContainer .section ul,
+/* #main #ppContentContainer .section ul,
 #main #ppContentContainer .ppContentBody .section ul {
     margin: 0;
     padding-left: 0;
@@ -181,10 +179,6 @@
         width: 100% !important;
     }
 }
-
-/*
- * header and footer CSS taken from M2 site
- */
 
 .header__h1 {
     font-size: 1.375rem;
@@ -664,9 +658,6 @@
     }
 }
 
-/**
- * override CSS from old mobile page mobile.css
- */
 #m2-navigation.header {
     margin-left: 0;
     font-weight: normal;
@@ -687,10 +678,6 @@
     box-sizing: border-box;
     font-family: Verdana;
 }
-
-/**
- * Overrides necessary for old IRW pages
- */
 
 #m2-navigation a {
     color: #333 !important;
@@ -966,4 +953,4 @@ body {
 }
 #checkoutOptimization #returnToShopping {
     display: none !important;
-}
+} */
