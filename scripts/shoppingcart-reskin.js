@@ -300,4 +300,4 @@
           modifyHeaderFooter();
       }
   });
-})();
+});
