@@ -746,7 +746,7 @@ body {
 }
 
 .header__icon-list-item {
-    max-width: 150px;
+    max-width: 70px;
     padding: 0 5px;
     flex: 1 0 auto;
 }
@@ -1260,4 +1260,10 @@ body {
 }
 #checkoutOptimization #returnToShopping {
     display: none !important;
+}
+
+.ui-btn-text, .shoppingListQuantity, .productName, .description, .productPrice, 
+.productDescription, .articleNumber, .total-price-text, .ikea-product-pricetag-normal,
+.ikea-shoppinglist-remove-all span, .priceBold, .shoppingListPriceRowInner{
+    font-family: 'Noto IKEA', 'Noto IKEA Arabic', 'Roboto', 'Open Sans', sans-serif !important;
 }
