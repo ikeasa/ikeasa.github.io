@@ -1262,8 +1262,9 @@ body {
     display: none !important;
 }
 
-.ui-btn-text, .shoppingListQuantity, .productName, .description, .productPrice, 
+.header__icon-list-item-text, .desktop-menu__title, .formHeadline, .espotListHead, .subText, .clientErrorText, .contentContainer a, .blueBtn, .contentContainer div ul li, .checkBoxMainLabel,
+ .ui-btn-text, .shoppingListQuantity, .productName, .description, .productPrice, 
 .productDescription, .articleNumber, .total-price-text, .ikea-product-pricetag-normal,
-.ikea-shoppinglist-remove-all span, .priceBold, .shoppingListPriceRowInner{
+.ikea-shoppinglist-remove-all span, .priceBold, .shoppingListPriceRowInner, .footer__inner-item a {
     font-family: 'Noto IKEA', 'Noto IKEA Arabic', 'Roboto', 'Open Sans', sans-serif !important;
 }
