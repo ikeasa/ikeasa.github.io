@@ -1,0 +1,1270 @@
+@font-face {
+    font-family: 'Noto IKEA Arabic';
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://www.ikea.com/sa/ar/static/fonts/NotoIKEAArabic_Latin-Regular.624b420d0da40b5963fa5ce402d89744.woff2") format("woff2"),url("https://www.ikea.com/sa/ar/static/fonts/NotoIKEAArabic_Latin-Regular.db234241c6be9026127f63d9e638876e.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'Noto IKEA Arabic';
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://www.ikea.com/sa/ar/static/fonts/NotoIKEAArabic_Latin-Bold.4570e3c4f898240f9a0ad43ab1624457.woff2") format("woff2"),url("https://www.ikea.com/sa/ar/static/fonts/NotoIKEAArabic_Latin-Bold.4ed40a5426d24c2949e02a8d02c507db.woff") format("woff")
+}
+
+@font-face {
+    font-family: 'Noto IKEA';
+    font-style: normal;
+    font-weight: 400;
+    src: url("data:font/woff2;base64,d09GMgABAAAAAAUwAA0AAAAADAQAAATfAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIByCJAZgAEQKgxSCMgE2AiQDLAsYAAQgBYxkB2wbqwoR1aQtEPxIMN12Kf1Jr95AzqgWNINa1DM5eJ7qev/c6uqRA3eoCfQABPZK4BLwLAOuoG82cshuolSDVV1JP03WzUgTAP1UdKCQVIlzcLXfr37R9u6HZjtDvRAJlVAp5b23w7fF/OYysuBZNTSGDNGzuFSNVjG1KdPp2EmAk2W2Zebn0T0QwAcAKJINBBMP8jDwUJu6SFZOUU9caADbBgAsuoiT6DetOWLe9InUHTN91ATaTBw2czJxegIZqOLCLIuyyooMizLiQBuc6WVleSRlpve0SMqPGcXpeaYXLC0SJem9RUVpMXadr48sjLrVLnrYsIkzqTkiPmMEDWbkHZvNmNGuI80A1CCPjQw0HixS6Fnf3oXgQGWGE1fi4WzEHkIowKnGcnHBxIGwIoBmKDce7LwmLkCrdNmACWqV6gsU+n9WBhOXDFBeU2lTK6UBAwAAILe0NFfSsDigW///Brq1NAbZD6CqqwSw0IACDCCGgQAxNO0AFy4UYFHAAdsGLPLdF9hv7av2SAQAAAAvAFUBDzAWWAQAaFAVXeIrg2jtC+uXC/qCXtOvh/tNn98nfcze4qen7tVz1fmqsvWcd/WVM2J69YKnXm+uvVbdbyJH71U6zicvFXV3xPCqYnnpY/QWLz1VL3quAoq3Hi2RdZLBid2JMfFOIzvRQnWsjPSojHb0HdFXiWBcq975WdEvnViNO6da3+9/Y8yoYQxL9E+w3NOwuHvRuMK6DULR/r7rFyT1TWK2q/b5rvmLmrdZ1HFHnw1DevWicTwteCEt0PF1x5eZrRSMw95W87Le3Q00DbXu0/idARBAkfHh/MstQ4JJv7kM4wvgSaB6EODl83bn7NN2hvylEsCBAkDA0kLVFwrQKGFFwpnAsgwWDVJJMwnDGHtqHYbJXmrzHQUyglrSkMZ8Y19BAC/hTnp8CBccFOI+BqLdwGDIQGjHYFAEWAcGvdkDmjb8DCY1xQIHLaQ7OMmSkeCihZwAN83kMXjIkL/BS4pKAh9Jaj741TZ1HgJ0NIu+R4i65gIUprTCjyFxAgFNdQ0dYEnTuAwCa0qkCoxlMuDCJhv9vshCxhuKVR1oRANrW3NjYCdAJAVoSuYHrIGNC8Q5mYDRUNVQVzcSjFOC4mRRVhuVvNGUeKCqLTqh5tB6y+kxLbYkDSXyflLvg0l0LJEsEKxFjEAM5SilqoyPac97msr1TwHYAsSz8XOGmsGJuPnsNyiQ1/4XioHQD8hkjr1EVftbk8JQ7cv9qanipmFFnVE4V8M1qXUwGa0mMiIfRE8h2SJOTOoboSkteEzAVUdFProWoOobZaQIUux02VFie9sDIqBI+7UdcOx8pOpg5E7IWe7H6pi6Khggxb4gpjHk0DBRukTgySVjV2DNJWASt8lZXvtp7Wbl6O6WymMXF2MHtTaX2OvoAkwdHcysASuWgzgWyGv/D2ytUbsLjaRKZKLhr4IhOwXStULKdUbu+6UPrhDqOxMw2hqyXI5IjEGwr0jtMB3glrgLZ15gjcHdhmbjOkBoOgmQY057SxSovcQ/mhuK4djE3pwgmdv7vlBWZLAZDxOrylKmOlXF1QyYyO5UKvnzke33aDr9oFFiiKaVSkxxiFNcjvw/sClxbH53cjo1rl27cV2Pq86IdEKGW3qIlLuTCAA=") format("woff2"),url("data:font/woff;base64,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") format("woff");
+    unicode-range: U+0049-004A,U+0020
+}
+
+@font-face {
+    font-family: 'Noto IKEA';
+    font-style: italic;
+    font-weight: 400;
+    src: url("data:font/woff2;base64,d09GMgABAAAAAAVUAA0AAAAADCgAAAUBAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIByCKgZgAEQKgziCQwE2AiQDLAsYAAQgBYxcB2wbugpRVG2SND8SY2Nlj8uYIloC09B3jUQ+4GhJwfNfnf191dWJB8QXlMwHffaQt+CKRm3qzA80rKzr9OjkgacC4ObGCpBztlIgqFsryMEgCCcQkhG+fHP/a63unLRDPomo09kQCZEWV3QwH6zZIBpVQ+Ndpl4kqyXxThOrFypPm92kNxdpkBA6VHQ//ncCAnwAQIHeImwe8jjwSHLroDXqTNg5DTAGAIzCafbQ7+DyTtIxu/1GY8T434tS9maF0cRhNK8Asz0qATM/GBWclzaDBivV4gQo9XkVKA2fimJDRb+TO4szUKvftWJX6CnLwlF1jD69YmKXt9yYPqzwYOL9G2NXcI9x2mA/Oe1lofGQRi06EKNdCA7USjlxuSfIEg9hKArUWi4R2jgQUYSguezGw7iujQvQKl3mYYOaoYLmo+Zff5hm0p1yUg+U11ba1m6lAQsAAKBx69aNRUhjnS7+fwd0sWSDrAVQceo0SEMDCrCAKCwEiEJTBnDhQgFpNGOdMSCNpm4788jsNX0Rbs/zAhADeIB+wBIAQIOdlqvk/spa+0J1mA71hXptv+7tt32ezECPTpnetA5dO6Z1mJETWLzbO/NGZg9v16tXve/UHWccjwlsPuZtajij2kbbnXchs4s32OvJDHRpppEINtU2xy5ctvvplacHlKvYtyJR8zpETqrdPGL+7/kdIz5v2iJyHq33lVupWjypGFVUv/KFxQdLlpyO7js0QP7SU8HHEFp50qf+KpDTpDCp2Ah/ycjYqL7DOqMnVwssb8+fGpnSLOdMfHbzTZ2WlwQ3RgQ6NyN5XqOIrtsfz78/v/HX0M/zaLw6f3pBdeRqeOG4wpIJFd8YAAEU9b6cSFc9Qmt8c1nWS8CVUPs54Ob1MndMX1NPfqnTFA4UAALNW62CtHbCkK1yrWFOVEG6iwZpYN5KuOmLnhtFvswwz/lItATMI4k3T3hvxiOAlzD9GTflgrPCOI6FaDfQHVYolKE7KnzMQYsOrEBNEe/RJkES0EGeVEAnDaQruiiQdegmT06jh3ryGb3UUhXQRw01Gv1qidqCIVSwG3yPMCPc5omUKZk9LeDxEfDG9uoTqFMUTwyBppSDA0WxGBjJyODvigykbSCJ61GIApraqopAh0ACKaCkYnugCbQ0ESEWcLziXtls/0oueOCCAaVbXsr/KyK/uA+1Db1lNHNNs6qIEVCkt54vzMyhUjydgAHEf0c0QUIJQYsAxTVbupT03LaXUaaUvNX6PS5XYAWiXuoJJCT+dCEJrO2BQkkZJ+ItPpxk/lj36LaL81TAwODkJyxeG7G0N6NY8hVJ/JkaeoPkpKBtwjeTaoKAvmEMLm0NrUS77VboRylT0SBHIEEL8aF8dFMH6MddmWqv7GjA8zx6RfI4yI3klyK6fy1HGYJiIE76gqIx0JQCUPKYAM87zzVNNPRNTZb6opGRoh43VcVB/9wDyvp+qBiUhWxSq1mC0Uugrcky1dtQYA9pnL+T0WSyJ+VXgYRjwYl4ZZOP0Ng24Oq6YjIicQRcLoPYlvGenOC1RjSDpNK0SbkxsEz2AIveSgRy4lE24sp0FMmekmehcsYdlRukdp19RLDhtG2QARs8O47xSrLHsn4jnbkorYcwXzGrlHO7vhdYSYklmiIvyRaHOMXlaPovNrWnzT6OOhs3PLDLlDJ6UKkxfY4HQ/bFoB4W2XAx+BsAAAA=") format("woff2"),url("data:font/woff;base64,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") format("woff");
+    unicode-range: U+0049-004A,U+0020
+}
+
+@font-face {
+    font-family: 'Noto IKEA';
+    font-style: normal;
+    font-weight: 700;
+    src: url("data:font/woff2;base64,d09GMgABAAAAAAU8AA0AAAAADDQAAATqAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIByCJAZgAEQKgzCCQgE2AiQDLAsYAAQgBYx4B2wbzwoRlaQzkP08sI2pB9/DBGiKso2D8ENLHAaHxjcP2MHzn93XfdXVHxqqR/5DLYFMUCY537OxTKHeNcUCTxxG9PXlt2oz6afJ6ow0AeB0GDpKFDtt/2wt7c9Dwf2zLkxSu0q+0DXm7+Zzm8uUeLO6MCWwCEI1Fb5CMyqUZUn+9qmdpmMsEXnIR4LJvhx6DAJ4AABFqoFg4kIeBi5iiUeaNGvTBQca4H8AkMrmcAT9rtGDZ04aQ/zwSUNHkzdm4JRxFNIFaIRq27qJRYfOnRpZdKAQyMPe0KFDC6obN3SxqG75jLZtaJE7F7dvE2vX0C3WqX1bSlejuyl6C6lD9MCBY6YQPbhw8mCSJo93IWPyZH8xGSBakNVuBhoXFrV04UY6EGyoUdSOQ68gRVwEolhQKzn0aGJDROFDq4wTl3RTEweg1TB1ARPUEtUDaH39t9KPQmkByu1Q2tRKacAAAABo3r59c7Gw2KVz/72HzpVUkJ0AKkndAxYaUIABhGIgQCgaP+DAgQIsWrHr/39g0TL7hn4XGkIAAABwAxAOuIBxwDIAQEOQlOl9BdHaE6xfMMgT5Da9epDX9Hg90t3oJl66qK5dl5wKl/Un3UvPHxfTrWe9eOG+5JiyW2my/2a24VaOrubyj0kWVUwD+6svDw/sd2/rveGFJUNKGNq0W7f0R4fqbtfnwvf0nfr8c2po9N7pxds3butTPmFoIb3ubbzHKlfa5mazurliY9b+Tr7a+PJVmjVb2Yz5zsTy0Imhm6PS+lTNWDmxY8HAXtnEdmgZO6ZlfLukdi3ix7SI7YD3cNSQZxOuvQhSJONXRnwwAAIoGsWMP/hDQPVXh2F8BDz3RQYAvHnlv/P/VHnyU90j2FAACJRrneohFImbrjwOBrfqQT/RIPOxpPWYnoe3ppfcESuxNJO1JEjv537x/68QwE2w8ZRdzAGnBfEMA9FOoB+MUPDTDxUOVqBBBzagxs8HNImWcLSRI36000T6oIMs2YVOMuQeumgkn9BNrSpGD9VqEnrVBnUIfRSbTTCQeHPGzwgi0NxAY6Q145+lCBIBTXUNHWBJ04QMA9YKkSowlsmAC8C4PpxBjPXBxKoOoCGaSrbmxlfZCRClALRC5l+iFnafCS0Ta6hqqKsb4R5p8sihzEaleuRdBqraFmtreph4xeQUzo8cCFK0pL3MlpavGOiECgWBYCSxArFKAlYawOp4zLKnFRb2n2FdiEW61QuVmWH+Q2KrGyaQM1RCBoThT49miUWIq2U9lBhDtX3o21kleHfeICrJ1QhLaqYb0WrgkjzxVFhFxIkpeyNj5IXWpztcgfM3yloW9G4ZJcIUMI++e0IMVojEwJFrO+CYcGlhunQHQ3kWdWLzqsAVx9cYsX0hh7zl7Tg4qyVjV2AtJWDy7hKUt39au1k5ursN1bGLi7GDWZtj/nHdDaaODMwclp75dWBB2pFvYGstu7aWUcGwfSv5MSyjb9ZMTMlNRq2qq61n/VmkFnBDD2PUS0ThqtNAJlAQnIAoh5CBvBZLoxqjq4rLnoQqap16LYL2wWqL9iP/NJc+6qBuj2ukEp2+LRgUlepIg6CqL5Op5s8ItdDXsOuNpqfGP7tK26bQ1Q92lBiiyVEZU2xiF4et5Z/ZNNo2l8Psrhjp94/remR1cqQTijqVR3yLM7kDAAA=") format("woff2"),url("data:font/woff;base64,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") format("woff");
+    unicode-range: U+0049-004A,U+0020
+}
+
+@font-face {
+    font-family: 'Noto IKEA';
+    font-style: italic;
+    font-weight: 700;
+    src: url("data:font/woff2;base64,d09GMgABAAAAAAV4AA0AAAAADIwAAAUlAAIAQgAAAAAAAAAAAAAAAAAAAAAAAAAAGhwbIByCKgZgAEQKgzyCUQE2AiQDLAsYAAQgBY08B2wbKAsoHoNt++T1RBZGLNeq+jyDc3UFj/wa+pLLARaBhWoVgZIVqoqlps0CWbT7VzptA8QXIhmeUA5Ksll2ABVZkRWDPNI5eeexBaQq3ad6Aqoz36YyQTWmex9iYeMjPEIBLZHL+JKLMJU1psqgUL1vv1Zv7g5rLB51Xt8QCZ1Wvpwu5nPWkEE0qofEI1sSjaIWmicqNitnZW0dkeBkQwjXffw9AgEZAFCSPcKXkJdBolG5qGGnkYVEBnAOAFRpN8wS+wOKL8KKD8pvFMELxCOHA6DXD9gVvWLaEbgO7AYELksBkxJ7Vms3GAYki8Aw6ulAYJjxYkV2i5XFmLQmXUjsW0xG/RybtgzOpofYGefDUHyhV3mo2lD7ho2qXQgNQOcHOezkMYlWq7Fiy4gI6EKEIucBOjlRKloGHS0yoi8grAqmp1iiuqwvApa2o69BHHQb3Rv5j3n6w0DHMOijG0ArkZpvsRrgAQAAdnYsXVGVIGes9f9XrCO1gHwAgLb1CWgVCxR4oFIMAZVijQIiEQWtaGecA1pRZT33yV1z50S5vC0FUA1IwDXgGQDAkKlZXNfkrGWlds6MrCyNy+00LS5L9nsGXD1pLNvrLAdum62Lung1Zfvb6pGUwXfvUkq5c9sTwfo4YSClN0S7Lt5f2V/2+KUo10H7y3O9G35y/ImoX+ReBGUtZ38995yqf3Kv3MIgMPcB8qvicO6GGKFQ++TlrrMH988WTU9LUPT++ODNBvAW634d37D1Vu0nyfzng545SziU9dR+YP4eMF6gl0L4NKOip+ip2X/QvqVAFgYBNVlTmXHQUJHpbJjlWyuW7rI3jWDRZ979XIv4z8/7RWrxwanWDHpJX389AIAAtb5t3j4zkrHyX2KM9xPwkhH3HfDxg3YuwjtC5vUJGQEFIGjwfD3VWB5r1hH+murIdADDEQvyFPkrTIRn3tqFovjt5kNLVpyM/JTByC/RuBBRIFVWo9tFRDipzBvIkGwMHIIFilHDqKrtQs+hC2iWIxp99bEWA7PRj6HN2IeR/viAsd4EmFhPDZhaThOYWUxXME+30f+wMJmbxlLluRko+/hnDMiCwhQSkQeG6GnpLIJ0kclEPgKEEsAjICQfH8RuVSr3UwQqgWKSwI1gJsNkCIXRgYQYcTBJACIL8AlDKAjNQObjLnfDOD4Sng5BR0trBdZJLnKSRpmhtWavCMjLEBaix6d3ujQOAj8Jq1yhWSWRLS7HfaURW8HdyeVKIlEhXEtMwXFbmaPwJji28XZiE1kA5g8Lyrp96UWSAFFP7YRQNnF+loDjl5SQxVxjwhAkozsMVxM88DUlaDmNbaqSIAqhccCn+GmIfkyDn4xMgxjm99AdI6uwEDfJz/IkqjpNjCGOFAmbShUEU2e2RJ0gQA1LIYFgSolEHgKiJcUIsdQeHsAPN2KgpQ89ZeoIyJ9yPwlMqRsTgl2CTAh3kKuQHBCKqyAGVido2boHhdXNwomdyyQ7O5KZKB2AwyzskDYWZu0o2WBMBXTqppZ9EAal1Cv4BVJGSuFS1glSlBpAyZKQ+MlHOmQTI2zihXT9yDjaCVCqkXmScT0hvmzaikI4YovYguDPVdvFGGtGWxu9wNBMxzi4sEg2CcgNjCQOk4WciBDVOTLHidu251FBKr59WwZhKsIh+RBBSaTJfxzGH1Z/6F+j4f4Cd4fe5fIp8ELFE2NQa8RJIKFEwd7f3xTG0w8HJYQCklZLamMlQuVjJyg6SRoxFCVJE88AAAA=") format("woff2"),url("data:font/woff;base64,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") format("woff");
+    unicode-range: U+0049-004A,U+0020
+}
+
+p {
+    margin-bottom: .5rem
+}
+
+small {
+    font-size: .875rem;
+    line-height: 1.1429;
+    display: inline-block
+}
+
+h1.page-headline {
+    font-size: 2.375rem;
+    line-height: 1.2632;
+    letter-spacing: -.67px;
+    font-weight: 700
+}
+
+@media all and (min-width: 48rem) {
+    h1.page-headline {
+        font-size:3rem;
+        line-height: 1.1667;
+        letter-spacing: -.84px
+    }
+}
+
+@media all and (min-width: 62rem) {
+    h1.page-headline {
+        font-size:3.75rem;
+        line-height: 1.2;
+        letter-spacing: -1.1px
+    }
+}
+
+h1 {
+    font-size: 1.875rem;
+    line-height: 1.3334;
+    letter-spacing: -.53px;
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+@media all and (min-width: 48rem) {
+    h1 {
+        font-size:2.375rem;
+        line-height: 1.2632;
+        letter-spacing: -.67px
+    }
+}
+
+@media all and (min-width: 62rem) {
+    h1 {
+        font-size:3rem;
+        line-height: 1.1667;
+        letter-spacing: -.84px
+    }
+}
+
+h2 {
+    font-size: 1.5rem;
+    line-height: 1.3334;
+    letter-spacing: -.42px;
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+@media all and (min-width: 48rem) {
+    h2 {
+        font-size:1.875rem;
+        line-height: 1.3334;
+        letter-spacing: -.53px
+    }
+}
+
+@media all and (min-width: 62rem) {
+    h2 {
+        font-size:2.375rem;
+        line-height: 1.2632;
+        letter-spacing: -.67px
+    }
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.3334;
+    letter-spacing: -.42px;
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+@media all and (min-width: 48rem) {
+    h3 {
+        font-size:1.875rem;
+        line-height: 1.3334;
+        letter-spacing: -.53px
+    }
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+
+@media all and (min-width: 62rem) {
+    h4 {
+        font-size:1.5rem;
+        line-height: 1.3334;
+        letter-spacing: -.42px;
+        margin-bottom: 1.5rem
+    }
+}
+
+h5,h6 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+
+.page-headline {
+    font-size: 2.375rem;
+    line-height: 1.2632;
+    letter-spacing: -.67px;
+    font-weight: 700
+}
+
+@media all and (min-width: 48rem) {
+    .page-headline {
+        font-size:3rem;
+        line-height: 1.1667;
+        letter-spacing: -.84px
+    }
+}
+
+@media all and (min-width: 62rem) {
+    .page-headline {
+        font-size:3.75rem;
+        line-height: 1.2;
+        letter-spacing: -1.1px
+    }
+}
+
+.h1 {
+    font-size: 1.875rem;
+    line-height: 1.3334;
+    letter-spacing: -.53px;
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+@media all and (min-width: 48rem) {
+    .h1 {
+        font-size:2.375rem;
+        line-height: 1.2632;
+        letter-spacing: -.67px
+    }
+}
+
+@media all and (min-width: 62rem) {
+    .h1 {
+        font-size:3rem;
+        line-height: 1.1667;
+        letter-spacing: -.84px
+    }
+}
+
+.h2 {
+    font-size: 1.5rem;
+    line-height: 1.3334;
+    letter-spacing: -.42px;
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+@media all and (min-width: 48rem) {
+    .h2 {
+        font-size:1.875rem;
+        line-height: 1.3334;
+        letter-spacing: -.53px
+    }
+}
+
+@media all and (min-width: 62rem) {
+    .h2 {
+        font-size:2.375rem;
+        line-height: 1.2632;
+        letter-spacing: -.67px
+    }
+}
+
+.h3 {
+    font-size: 1.5rem;
+    line-height: 1.3334;
+    letter-spacing: -.42px;
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+@media all and (min-width: 48rem) {
+    .h3 {
+        font-size:1.875rem;
+        line-height: 1.3334;
+        letter-spacing: -.53px
+    }
+}
+
+.h4 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+
+@media all and (min-width: 62rem) {
+    .h4 {
+        font-size:1.5rem;
+        line-height: 1.3334;
+        letter-spacing: -.42px;
+        margin-bottom: 1.5rem
+    }
+}
+
+.h5,.h6 {
+    font-size: 1.25rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 1rem
+}
+
+body {
+    font-family: 'Noto IKEA', 'Noto IKEA Arabic', 'Roboto', 'Open Sans', sans-serif !important
+}
+
+/* restyle mcommerce shopping bag */
+
+#main #ppContentContainer .section ul,
+#main #ppContentContainer .ppContentBody .section ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.orderConfirmationPage .skipToMainContent,
+#mobileWebLinkContainer {
+    display: none;
+}
+
+.ext-family-msg {
+    background-color: #f07f13;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+#main div.buttonWrapper input {
+    margin-left: 0;
+}
+
+#ppContentContainer {
+    box-sizing: border-box;
+    width: 100% !important;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#ppContentContainer img {
+    max-width: 100%;
+}
+
+#ppContentContainer .ppMainHeadline {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.ppSectionListLink a,
+.sectionList li a {
+    box-sizing: border-box;
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #407ab1 !important;
+    box-shadow: inset 0 0 0 1px #407ab1;
+    background: none;
+    margin-top: 12px;
+}
+
+#main #ppContentContainer .ppRightAd {
+    float: left;
+    margin-right: 0;
+}
+
+#main #ppContentContainer .ppRightAd h5 {
+    margin-left: 0;
+}
+
+#main #ppContentContainer .buttonWrapper {
+    text-align: left;
+}
+
+#main #ppContentContainer .ppContentBody .section #adContentFamilyLP ul {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#ppContentContainer .ppLeftAd {
+    margin-right: 25px;
+}
+
+@media only screen and (max-width: 1299px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #backtotop_wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    #ppContentContainer,
+    #allContent #mainPadding,
+    #allContent {
+        box-sizing: border-box !important;
+        width: 100% !important;
+    }
+
+    #ppContentContainer .sectionList {
+        box-sizing: border-box !important;
+        float: none !important;
+        padding: 0 0 20px 0 !important;
+        width: 100% !important;
+    }
+
+    #main #ppContentContainer .ppLeftAd,
+    #main #ppContentContainer .ppRightAd {
+        width: 100% !important;
+        float: none !important;
+    }
+
+    #main #ppContentContainer .ppLeftAd img {
+        height: auto !important;
+        width: 100% !important;
+    }
+
+    #main #ppContentContainer .section ul,
+    #main #ppContentContainer .ppContentBody .section ul {
+        margin: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    #ppContentContainer .ppContentBodyColor {
+        padding: 15px !important;
+    }
+
+    #ppContentContainer .ppContentBody {
+        padding: 0 15px !important;
+    }
+
+    #main form .formField .formColLeft,
+    #main form .formField .formColRight,
+    #main #createUser .formField .formColLeft,
+    #main #createUser .formField .formColRight {
+        float: none !important;
+        width: 100% !important;
+        text-align: left !important;
+        margin-bottom: 5px !important;
+    }
+
+    #main form .formField select,
+    #main form .formField input[type='text'],
+    #main form .formField input[type='tel'],
+    #main form .formField input[type='password'] {
+        padding: 8px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        height: auto !important;
+    }
+
+    #main .ppContentBody > strong {
+        display: block !important;
+        margin: 10px 0 0 0 !important;
+    }
+
+    #main #pp_createUser .rightContentDivider {
+        width: auto !important;
+    }
+
+    #pp_createUser #main .rightContentDivider {
+        width: auto !important;
+    }
+
+    #main .rightContentDivider .contentInnerArea form {
+        padding: 15px !important;
+    }
+
+    #main .contentArea table {
+        min-width: 0 !important;
+    }
+
+    #main .contentArea table td {
+        display: block !important;
+        width: 100% !important;
+    }
+
+    #main .form .formField label,
+    #main .contentArea .formField label {
+        text-align: left !important;
+    }
+
+    #main #login .formField input[type='text'],
+    #main #login .formField input[type='password'] {
+        width: 100% !important;
+    }
+}
+
+/*
+ * header and footer CSS taken from M2 site
+ */
+
+.empty-information {
+    font-family: 'Noto IKEA', 'Noto IKEA Arabic', 'Roboto', 'Open Sans', sans-serif !important;
+}
+
+.empty-information-headline {
+    font-size: 1rem !important;
+}
+
+.header {
+    font-family: 'Noto IKEA', 'Noto IKEA Arabic', 'Roboto', 'Open Sans', sans-serif !important;
+    font-size: 1.375rem;
+}
+
+.header__h1 {
+    font-size: 1.375rem;
+}
+
+@media (min-width: 768px) {
+    .header__h1 {
+        font-size: 2.25rem;
+    }
+}
+
+.header__h2 {
+    font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .header__h2 {
+        font-size: 1.625rem;
+    }
+}
+
+.header__h3 {
+    font-size: 1.125rem;
+}
+
+@media (min-width: 768px) {
+    .header__h3 {
+        font-size: 1.25rem;
+    }
+}
+
+.header__h4 {
+    font-size: 1rem;
+}
+
+.header__h5 {
+    font-size: 0.875rem;
+}
+
+.header__h6 {
+    font-size: 0.75rem;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 90%;
+}
+
+.no-outline {
+    outline: 0;
+}
+
+.cookie-info__panel {
+    padding: 15px;
+    background-color: #407ab1;
+    color: #fff;
+    text-align: center;
+    display: none;
+    visibility: hidden;
+    flex: none;
+    flex-direction: column;
+}
+
+.cookie-info__panel--show {
+    display: inherit;
+    visibility: visible;
+}
+
+.cookie-info__learn-more-link {
+    color: #fff;
+}
+
+.cookie-info__panel-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cookie-info__accept-button {
+    margin: 15px 0 0;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+    padding: 5px 40px;
+}
+
+.footer {
+    padding: 1rem;
+    color: #333;
+    background: #fff;
+    border-top: 5px solid #407ab1;
+}
+
+.footer__nav {
+    font-size: 0.875rem;
+}
+
+@media (min-width: 1024px) {
+    .footer__nav {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.footer__copyright {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.footer__inner-list,
+.footer__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+@media (min-width: 768px) {
+    .footer__list {
+        justify-content: center;
+    }
+}
+
+.footer__inner-item + .footer__inner-item {
+    margin-top: 1rem;
+    display: block;
+}
+
+.footer__list-item {
+    margin-bottom: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    flex: 0 1 50%;
+}
+
+@media (min-width: 768px) {
+    .footer__list-item {
+        flex-basis: 20%;
+    }
+}
+
+.footer__item-headline {
+    display: inline-block;
+    margin: 0 0 1px;
+    font-size: inherit;
+}
+
+.footer__item-link,
+.footer__item-link:active,
+.footer__item-link:focus,
+.footer__item-link:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer__item-link:active:hover,
+.footer__item-link:focus:hover,
+.footer__item-link:hover,
+.footer__item-link:hover:hover {
+    text-decoration: underline;
+}
+
+.footer__list-item-social {
+    flex-grow: 1;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.footer__list-item-social .footer__inner-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0.75rem -0.5rem -0.5rem;
+}
+
+.footer__list-item-social .footer__inner-item {
+    flex: 0 0 auto;
+    margin: 0 0.5rem 0.5rem;
+}
+
+.footer__item-image {
+    width: 2.6rem;
+    height: 2.6rem;
+}
+
+.header {
+    background-color: #fff;
+    padding-bottom: 0.5rem;
+    line-height: 1;
+}
+
+.header__content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo {
+    display: inline-block;
+    margin: 0.6rem 0.9rem 0.3rem;
+}
+
+.header__logo .svg-icon {
+    width: 5.625rem;
+    height: 2.5rem;
+}
+
+.header__navigation {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem 0.5rem 0;
+    flex: 1 1 auto;
+    float: right;
+    text-align: right;
+}
+
+.header__icon-count-0 {
+    display: none;
+}
+
+.header__icon-count-1 {
+    max-width: 100px;
+}
+
+.header__icon-count-2 {
+    max-width: 200px;
+}
+
+.header__icon-count-3 {
+    max-width: 300px;
+}
+
+.header__icon-list {
+    list-style: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__icon-list img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.header__icon-list > li {
+    display: inline-block;
+}
+
+.header__icon-list-item {
+    max-width: 70px;
+    padding: 0 5px;
+    flex: 1 0 auto;
+}
+
+.header__icon-list-item-link {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.header__icon-list-item-text {
+    padding-top: 4px;
+    font-size: 11px;
+    display: none;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.header__icon-list-item-icon {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+    display: block;
+}
+
+.header__shopping-cart {
+    position: relative;
+}
+
+.header__shopping-bag-quantity {
+    transform: translateY(-25%) translateX(50%);
+    color: #0051ba;
+    background: #f9d616;
+    border-radius: 0.75rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-decoration: none;
+    padding: 0.25rem;
+    font-size: 0.625rem;
+    min-height: 0.7rem;
+    min-width: 0.7rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header__sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+@media (min-width: 768px) {
+    .header__icon-list-item {
+        min-width: 100px;
+        flex: 0 1 auto;
+    }
+
+    .header__icon-list-item-link,
+    .header__icon-list-item-text {
+        display: block;
+    }
+
+    .header__icon-count-1 {
+        max-width: 200px;
+    }
+
+    .header__icon-count-2 {
+        max-width: 400px;
+    }
+
+    .header__icon-count-3 {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__icon-list-item {
+        min-width: 75px;
+    }
+
+    .header__icon-list-item-text {
+        display: none;
+    }
+
+    .header__icon-count-1 {
+        max-width: 72px;
+    }
+
+    .header__icon-count-2 {
+        max-width: 145px;
+    }
+
+    .header__icon-count-3 {
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header__icon-list-item {
+        min-width: 100px;
+    }
+
+    .header__icon-list-item-text {
+        display: block;
+    }
+
+    .header__icon-count-1 {
+        max-width: 200px;
+    }
+
+    .header__icon-count-2 {
+        max-width: 400px;
+    }
+
+    .header__icon-count-3 {
+        max-width: 600px;
+    }
+}
+
+.top-menu {
+    display: none;
+    background-color: #f8f8f8;
+    width: 100%;
+}
+
+.top-menu__content {
+    display: flex;
+    flex-direction: row;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-top: 0.6rem;
+    padding-bottom: 0.8rem;
+}
+
+.top-menu__item {
+    list-style-type: none;
+}
+
+.top-menu__item--right {
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.top-menu__link {
+    margin: 0 1rem;
+    padding: 1rem 0.5rem;
+    color: #666;
+    text-decoration: none;
+}
+
+.top-menu__title:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+    .top-menu {
+        display: block;
+    }
+}
+
+.desktop-menu {
+    flex-direction: row;
+    display: none;
+    padding: 0;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    flex: 1 0 auto;
+}
+
+.desktop-menu__item {
+    list-style-type: none;
+    margin-top: 0.5rem;
+}
+
+.desktop-menu__link {
+    margin: 0 1rem;
+    padding: 1rem 1rem 0;
+    text-decoration: none;
+    font-weight: 700;
+    color: #333;
+}
+
+.desktop-menu__title {
+    padding-bottom: 1px;
+}
+
+.desktop-menu__title:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 1024px) {
+    .desktop-menu {
+        display: flex;
+    }
+
+    .header__icon-list-item--menu.header__icon-list-item--menu {
+        display: none;
+    }
+}
+
+/**
+ * override CSS from old mobile page mobile.css
+ */
+#m2-navigation.header {
+    margin-left: 0;
+    font-weight: normal;
+    font-size: inherit;
+    border-bottom: 1px solid #eee;
+}
+
+#m2-navigation .desktop-menu {
+    font-size: 16px !important;
+}
+
+#m2-footer h2 {
+    margin-bottom: 1rem;
+}
+
+#m2-navigation *,
+#m2-footer * {
+    box-sizing: border-box;
+    /* text-align: -webkit-match-parent; */
+}
+
+/**
+ * Overrides necessary for old IRW pages
+ */
+
+#m2-navigation a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+#m2-footer a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+#m2-footer {
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+    background: #0058a3;
+    padding: 4rem 0 2rem 0;
+    color: #fff !important;
+}
+#m2-footer h2.footer__item-headline {
+    color: #fff;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        padding: 1rem !important;
+    }
+}
+
+#footer.hideit {
+    visibility: hidden;
+    height: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.footer__menu-small {
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.footer .footer__list--line-separated > li:not(:last-child):after {
+    content: '';
+    display: inline-block;
+    font-weight: normal;
+    margin: 0 1rem;
+    background: #959595;
+    height: 1.5rem;
+    width: 1px;
+    vertical-align: top;
+}
+
+.footer .footer__list--line-separated > li {
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+}
+
+.footer .footer__list--line-separated.footer__list--xsmall > li:not(:last-child):after {
+    margin: 0 0.5rem;
+    height: 1rem;
+}
+
+.footer .footer__list--xsmall {
+    font-size: 0.75rem;
+    line-height: 1.3334;
+}
+
+.footer .footer__list--xsmall a {
+    font-weight: normal;
+}
+
+.footer .footer__list--line-separated > li:not(:last-child):after {
+    background: #fff;
+}
+
+.footer__svg-icon--leading {
+    min-width: 2rem;
+}
+
+.footer__svg-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+@media (min-width: 768px) {
+    .footer__svg-icon--social {
+        margin-right: 0.5rem;
+    }
+}
+
+.footer__copyright {
+    font-size: 0.75rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer__horizontal-list-item .footer__social-link:hover .footer__svg-icon,
+.footer__horizontal-list-item .footer__social-link:focus .footer__svg-icon,
+.footer__horizontal-list-item .footer__social-link:active .footer__svg-icon {
+    fill: #fff;
+}
+
+.footer__svg-icon.footer__svg-icon--social {
+    fill: #fff;
+}
+
+.footer__nav .footer__list--horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer .footer__list--plain {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.footer .footer__list--plain li {
+    padding-left: 0;
+}
+
+.footer__horizontal-list-item--social {
+    margin-bottom: 1rem;
+}
+.footer__horizontal-list-item {
+    display: inline-block;
+}
+
+.footer .footer__list--font-normal a {
+    font-weight: normal;
+}
+.footer__horizontal-list-item .footer__social-link {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+.footer__link--white {
+    text-decoration: none;
+    font-weight: 700;
+    color: #0058a3;
+    fill: #0058a3;
+    color: #fff;
+    fill: #fff;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+.footer__svg-icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer__inner-item-text {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .footer__inner-item-text {
+        display: inline;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .ui-mobile [data-role='page'],
+    .ui-mobile [data-role='dialog'],
+    .ui-page {
+        min-height: 420px !important;
+        position: relative;
+    }
+}
+@media screen and (orientation: landscape) {
+    .ui-mobile,
+    .ui-mobile .ui-page {
+        min-height: 300px !important;
+        position: relative;
+    }
+}
+.ui-body-d,
+body {
+    background: #fff !important;
+}
+
+@media (min-width: 1024px) {
+    .ui-body-d .ui-content {
+        padding-left: 250px !important;
+        padding-right: 250px !important;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+.ui-btn-up-purchase,
+.ui-btn-hover-purchase {
+    background: #2d6596 !important;
+}
+
+#checkoutOptimization #ikea-shoppinglist-list .productRow {
+    border: none !important;
+    -webkit-box-shadow: -2px -4px 29px 7px rgba(248, 248, 248, 0.77);
+    -moz-box-shadow: -2px -4px 29px 7px rgba(248, 248, 248, 0.77);
+    box-shadow: -2px -4px 29px 7px rgba(248, 248, 248, 0.77);
+}
+#checkoutOptimization .ikea-shoppinglist-remove-all {
+    border: none !important;
+}
+#checkoutOptimization .shoppingListPriceRow {
+    border: none !important;
+}
+
+@media (min-width: 1024px) {
+    #checkoutOptimization .shoppingListPriceRow,
+    #checkoutOptimization #ikea-shoppinglist-list .productRow,
+    #checkoutOptimization .ikea-shoppinglist-remove-all {
+        border: none !important;
+    }
+    #checkoutOptimization #ikea-shoppinglist-list .productRow {
+        border: none !important;
+        -webkit-box-shadow: -2px -4px 29px 7px rgba(248, 248, 248, 0.77);
+        -moz-box-shadow: -2px -4px 29px 7px rgba(248, 248, 248, 0.77);
+        box-shadow: -2px -4px 29px 7px rgba(248, 248, 248, 0.77);
+    }
+    #checkoutOptimization .shoppingListPriceRow #checkoutButtonBoxBottom .ui-btn-down-purchase,
+    #checkoutOptimization .shoppingListPriceRow #checkoutButtonBoxTop .ui-btn-up-purchase,
+    #checkoutOptimization .shoppingListPriceRow #checkoutButtonBoxTop .ui-btn-hover-purchase {
+        width: 200px !important;
+        float: right;
+        margin-bottom: 13px;
+    }
+    .ui-btn-up-purchase,
+    .ui-btn-hover-purchase,
+    .ui-btn-down-purchase {
+        width: 200px !important;
+        float: right;
+        margin-bottom: 18px;
+    }
+}
+
+.contentArea table td.bgGray {
+    background: #fff !important;
+}
+#checkoutOptimization .ikea-product-pricetag-cell .ui-li-desc  {
+    font-size: 14px !important;
+}
+.ui-body-d,
+.ui-overlay-d {
+    text-shadow: none !important;
+}
+#shoppingListRemoveAllPopup {
+    position: absolute !important;
+    background: none !important;
+    margin-top: -100px;
+}
+#checkoutOptimization .shoppingListPriceRow #checkoutButtonBoxBottom,
+#checkoutOptimization .shoppingListPriceRow #checkoutButtonBoxTop {
+    border: none !important;
+}
+.shoppingListpayment {
+    border: none !important;
+}
+
+#checkoutOptimization .shoppingListpayment .price-layout {
+    display: flex !important;
+    justify-content: space-around;
+}
+#checkoutOptimization .header {
+    font-size: 20px !important;
+}
+#checkoutOptimization #returnToShopping {
+    display: none !important;
+}
+
+.header__icon-list-item-text, .desktop-menu__title, .formHeadline, .espotListHead, .subText, .clientErrorText, .contentContainer a, .blueBtn, .contentContainer div ul li, .checkBoxMainLabel,
+ .ui-btn-text, .shoppingListQuantity, .productName, .description, .productPrice, 
+.productDescription, .articleNumber, .total-price-text, .ikea-product-pricetag-normal,
+.ikea-shoppinglist-remove-all span, .priceBold, .shoppingListPriceRowInner, .footer__inner-item a {
+    font-family: 'Noto IKEA', 'Noto IKEA Arabic', 'Roboto', 'Open Sans', sans-serif !important;
+}
