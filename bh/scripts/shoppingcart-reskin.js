@@ -51,9 +51,9 @@
     }
   
     function modifyHeaderFooter() {
-        const baseURL = '/bh/' + lang + '/';
-        const $body = jQuery('body');
         const www = (lang == 'ar')? 'ar' : 'www';
+        const baseURL = 'https://' + www + '.ikea.com/bh/' + lang + '/';
+        const $body = jQuery('body');
         
         // HTML code taken from M2 homepage
         const headerContent =
