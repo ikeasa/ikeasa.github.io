@@ -144,7 +144,9 @@
       'General information': 'معلومات عامة',
       'Privacy policy': 'سياسة الخصوصية',
       'Cookies policy': 'سياسة الكوكيز',
+      'My profile': 'صفحتي الشخصية',
 
+      'https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=39&langId=-49': 'https://secure.ar.ikea.com/sa/ar/webapp/wcs/stores/servlet/LogonForm?storeId=39&langId=-49'
     };
 
     return lang == 'ar' ? arabic[english] : english;
@@ -172,13 +174,22 @@
       '<li class="desktop-menu__item"><a href="' + baseURL + 'rooms/" class="desktop-menu__link"><span class="desktop-menu__title">' + __('Rooms') + '</span></a></li>' +
       '<li class="desktop-menu__item"><a href="' + baseURL + 'ideas/" class="desktop-menu__link"><span class="desktop-menu__title">' + __('IDEAS') + '</span></a></li>' +
       '<li class="desktop-menu__item"><a href="' + baseURL + 'news/" class="desktop-menu__link"><span class="desktop-menu__title">' + __('What\'s new') + '</span></a></li>' +
-      '</ul><ul class="header__icon-list header__icon-count-3">' +
+      '</ul>' +
+
+      '<ul class="header__icon-list header__icon-count-3">' +
+
+      '<li class="header__icon-list-item"><a class="header__icon-list-item-link" href="' + __('https://secure.ikea.com/webapp/wcs/stores/servlet/LogonForm?storeId=39&langId=-49') + '"><div class="header__icon-list-item-icon">' +
+      '<svg class="hnf-svg-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15,12H9a5,5,0,0,0-5,5v4H20V17A5,5,0,0,0,15,12Zm3,7H6V17a3,3,0,0,1,3-3h6a3,3,0,0,1,3,3Zm-6-8A4,4,0,1,0,8,7,4,4,0,0,0,12,11Zm0-6a2,2,0,1,1-2,2A2,2,0,0,1,12,5Z"></path></svg>' +
+      '</div><span class="header__icon-list-item-text">' + __('My profile') + '</span></a></li>' +
+
       '<li class="header__icon-list-item"><a class="header__icon-list-item-link" href="https://order.ikea.com/sa/' + lang + '/checkout/shoppinglist"><div class="header__icon-list-item-icon">' +
       '<svg class="hnf-svg-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16,14l2-2V22H2V2H16L14,4H4V20H16ZM12,6H6V8h6ZM6,12H8V10H6Zm-.23,6.29,4.66-2.05L22,4.66,19.34,2,7.72,13.73Z"></path></svg>' +
       '</div><span class="header__icon-list-item-text">' + __('Shopping list') + '</span></a></li>' +
+
       '<li class="header__icon-list-item"><a class="header__shopping-cart header__icon-list-item-link" href="https://' + www + '.ikea.com/sa/' + lang + '/mcommerce/shoppingcart"><div class="header__icon-list-item-icon js-shopping-cart-icon" data-market-code="en-SA">' +
       '<svg class="hnf-svg-icon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M16.677 10l-1.245-3.114L12.646 5h-1.292L8.568 6.886 7.323 10H2l2.544 7.633A2 2 0 0 0 6.441 19h11.117a2 2 0 0 0 1.898-1.368L22 10zm-6-3h2.646l1.2 3H9.477zm6.881 10H6.441l-1.666-5h14.45z"></path></svg>' +
       '<span class="header__shopping-bag-quantity" style="display: none"></span></div><span class="header__icon-list-item-text">' + __('Shopping bag') + '</span></a></li>' +
+      
       '</ul></nav></div>';
 
 
