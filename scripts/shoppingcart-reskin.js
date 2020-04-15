@@ -184,7 +184,8 @@
 
     function modifyHeaderFooter() {
         const baseURL = '/sa/' + lang + '/';
-        const $body = jQuery('body');
+        //const $body = jQuery('body');
+        const body = document.querySelector('body');
         const www = lang == 'ar' ? 'ar' : 'www';
 
         // HTML code taken from M2 homepage
@@ -245,13 +246,21 @@
 
         // headerContent = '<a href="https://www.ikea.com/sa/en/">IKEA</a>';
         // insert header HTML code into page
-        $body.prepend(
-            jQuery(
-                '<header id="m2-navigation" class="header" role="banner">' +
-                    headerContent +
-                    '</header>'
-            )
-        );
+        const header = document.createElement('header');
+        header.setAttribute('id', 'm2-navigation');
+        header.setAttribute('class', 'header');
+        header.setAttribute('role', 'banner');
+        header.innerHTML = headerContent;
+
+        body.insertBefore(header, body.firstChild);
+
+        // $body.prepend(
+        //     jQuery(
+        //         '<header id="m2-navigation" class="header" role="banner">' +
+        //             headerContent +
+        //             '</header>'
+        //     )
+        // );
 
         var $trustMarks = jQuery('#trustMarksWrapper');
         if ($trustMarks) {
@@ -427,13 +436,21 @@
             currentYear +
             '</div>';
 
-        $body.append(
-            jQuery(
-                '<footer id="m2-footer" class="footer" role="contentinfo">' +
-                    footerHtml +
-                    '</footer>'
-            )
-        );
+        const footer = document.createElement('footer');
+        footer.setAttribute('id', 'm2-footer');
+        footer.setAttribute('class', 'footer');
+        footer.setAttribute('role', 'contentinfo');
+        footer.innerHTML = footerHtml;
+
+        body.appendChild(footer);
+
+        // $body.append(
+        //     jQuery(
+        //         '<footer id="m2-footer" class="footer" role="contentinfo">' +
+        //             footerHtml +
+        //             '</footer>'
+        //     )
+        // );
         //jQuery('body').show();
     }
 
