@@ -189,16 +189,16 @@
 
         // HTML code taken from M2 homepage
         const headerContent =
-            '<div class="header__content">' +
+            '<script>function moveTo() { document.location = "https://www.ikea.com/sa/'+lang+'/campaigns/far-more-than-low-price-pub23485790"}</script><div class="header__content">' +
             '<a href="' +
             baseURL +
             '" class="head__logo"><img class="svg-icon" src="https://www.ikea.com/sa/en/static/ikea-logo.f88b07ceb5a8c356b7a0fdcc9a563d63.svg" alt="IKEA" title="IKEA"><span class="header__sr-only">IKEA</span></a>' +
             '<nav class="header__navigation" role="navigation"><ul class="desktop-menu">' +
-            '<li class="desktop-menu__item"><a href="https://www.ikea.com/sa/' +
-            lang +
-            '/campaigns/far-more-than-low-price-pub23485790" class="desktop-menu__link"><span class="desktop-menu__title">' +
+            
+            '<li class="desktop-menu__item"><a href="#" onclick="javascript:moveTo()" class="desktop-menu__link"><span class="desktop-menu__title">' +
             __('Products') +
             '</span></a></li>' +
+
             '<li class="desktop-menu__item"><a href="' +
             baseURL +
             'rooms/" class="desktop-menu__link"><span class="desktop-menu__title">' +
