@@ -1,6 +1,9 @@
 (function () {
     'use strict';
-    console.log('redirect loaded');
+    console.log('redirect loaded v2');
+    const urlParts = window.location.href.split('/');
+    const market = urlParts[3];
+    const lang = urlParts[4];
 
     var PrevURL = document.referrer;
     //shopping list AR
@@ -25,7 +28,8 @@
     }
 
     //Mobile Site Checkout Redirection
-    var newCheckoutLink = 'https://securema.ikea.com/ksawebapp/checkout';
+    //var newCheckoutLink = 'https://securema.ikea.com/ksawebapp/checkout';
+    var newCheckoutLink = 'https://securema.ikea.com/' + market + '/' + lang + '/checkout/';
     if (
         window.location.href.indexOf('mcommerce/shoppingcart') > -1 ||
         window.location.href.indexOf(

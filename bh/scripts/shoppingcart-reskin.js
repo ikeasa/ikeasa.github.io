@@ -1,10 +1,56 @@
+(function(){
+  'use strict';
+  console.log('redirect loaded v2');
+  const urlParts = window.location.href.split('/');
+  const market = urlParts[3];
+  const lang = urlParts[4];
+
+  var newCheckoutLink = 'https://securema.ikea.com/' + market + '/' + lang + '/checkout/';
+  if (
+      window.location.href.indexOf('mcommerce/shoppingcart') > -1 ||
+      window.location.href.indexOf(
+          'webapp/wcs/stores/servlet/OrderItemDisplayMobile'
+      ) > -1
+  ) {
+      const shopRowTop = document.querySelector('#shopRowTop');
+      if (shopRowTop) {
+          shopRowTop.action = newCheckoutLink;
+      }
+
+      const shopRowBottom = document.querySelector('#shopRowBottom');
+      if (shopRowBottom) {
+          shopRowBottom.action = newCheckoutLink;
+      }
+
+      var checkoutbuttonTop = document.querySelector(
+          "#checkoutButtonBoxTop input[type='submit']"
+      );
+      if (checkoutbuttonTop) {
+          checkoutbuttonTop.onclick = function () {
+              var changeForm = document.querySelector('#shopRowTop');
+              changeForm.action = newCheckoutLink;
+              changeForm.submit();
+          };
+      }
+
+      var checkoutbuttonBottom = document.querySelector(
+          "#checkoutButtonBoxBottom input[type='submit']"
+      );
+      if (checkoutbuttonBottom) {
+          checkoutbuttonBottom.onclick = function () {
+              var changeForm = document.querySelector('#shopRowBottom');
+              changeForm.action = newCheckoutLink;
+              changeForm.submit();
+          };
+      }
+  }
+})();
+
 (function() {
     'use strict';
-    console.log('reskin loaded');
-    
     const langs = document.documentElement.lang.toLocaleLowerCase().split('-');
     const lang = (langs[0] == 'ar')? 'ar' : 'en';
-  
+
     function __(english) {
       const arabic = {
         'Products': 'المنتجات',
