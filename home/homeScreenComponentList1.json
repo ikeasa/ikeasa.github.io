@@ -79,8 +79,8 @@
           "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
           "showTitleInMainComponent": false,
           "platforms": ["iOS", "Android"],
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlEn": "https://ikeasa.github.io/home/banner1.png",
+          "imageUrlAr": "https://ikeasa.github.io/home/banner1.png",
           "action": "ikeasa://campaignList",
           "navLink": [
             {
@@ -142,8 +142,8 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/beds-bm003/",
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/beds_bm003.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/beds_bm003.jpg?imwidth=300"
         },
         {
           "type": "image",
@@ -155,8 +155,8 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/mattresses-bm002/",
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/mattresses_bm002.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/mattresses_bm002.jpg?imwidth=300"
         },
         {
           "type": "image",
@@ -168,8 +168,8 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/wardrobes-19053/",
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/wardrobe-shelving_49079.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/wardrobe-shelving_49079.jpg?imwidth=300"
         },
         {
           "type": "image",
@@ -181,8 +181,8 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/chests-of-drawers-10451/",
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/chests-of-drawers_10451.jpg?imwidth=400",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/chests-of-drawers_10451.jpg?imwidth=400"
         },
         {
           "type": "image",
@@ -194,8 +194,8 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/sofas-fu003/",
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_all-sofas.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_all-sofas.jpg?imwidth=300"
         },
         {
           "type": "image",
@@ -207,8 +207,8 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/tables-desks-fu004/",
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/table-desk-systems_47423.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/table-desk-systems_47423.jpg?imwidth=300"
         },
         {
           "type": "image",
@@ -220,8 +220,8 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/bookcases-shelving-units-st002/",
-          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
-          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=400",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=400"
         }
       ]
     },
