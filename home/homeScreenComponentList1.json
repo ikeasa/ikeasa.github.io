@@ -1,0 +1,245 @@
+{
+  "homeScreenComponentList": [
+    {
+      "showBackground": false,
+      "type": "banner",
+      "size": "small",
+      "visibility": true,
+      "platforms": ["iOS", "Android"],
+      "sortOrder": 1,
+      "childComponents": [
+        {
+          "type": "image",
+          "titleEn": "News",
+          "titleAr": "جديد",
+          "showTitleInBold": true,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "ikeasa://plp?apiType=news",
+          "imageUrlEn": "https://ikeasa.github.io/home/New.jpg",
+          "imageUrlAr": "https://ikeasa.github.io/home/New.jpg"
+        },
+        {
+          "type": "image",
+          "titleEn": "New lower price",
+          "titleAr": "سعر أكثر انخفاضًا",
+          "showTitleInBold": true,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "ikeasa://plp?apiType=nlp&title=New%20Lower%20Price",
+          "imageUrlEn": "https://ikeasa.github.io/home/NLP.jpg",
+          "imageUrlAr": "https://ikeasa.github.io/home/NLP.jpg"
+        },
+        {
+          "type": "image",
+          "titleEn": "20SR or less",
+          "titleAr": "20 ريال أو أقل",
+          "showTitleInBold": true,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "ikeasa://plp?productGroupId=20SR%20or%20less&title=20SR%20or%20less",
+          "imageUrlEn": "https://ikeasa.github.io/home/20SR.jpg",
+          "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg"
+        },
+        {
+            "type": "image",
+            "titleEn": "Augmented reality",
+            "titleAr": "الواقع المعزز",
+            "showTitleInBold": true,
+            "descriptionEn": null,
+            "descriptionAr": null,
+            "showTitleInMainComponent": true,
+            "platforms": ["iOS"],
+            "action": "ikeasa://ar",
+            "imageUrlEn": "https://ikeasa.github.io/home/20SR.jpg",
+            "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg"
+        }
+      ]
+    },
+    {
+      "visibility": true,
+      "showBackground": true,
+      "type": "banner",
+      "size": "large",
+      "sortOrder": 2,
+      "platforms": ["iOS", "Android"],
+      "childComponents": [
+        {
+          "type": "image",
+          "titleEn": "Let your home flourish again",
+          "titleAr": "بيتك دائمًا عامر",
+          "showTitleInBold": true,
+          "descriptionEn": "It's the room where everything comes together. Big or small, your living room gives you the space to socialise, relax, store things, work or even take a nap.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "showTitleInMainComponent": false,
+          "platforms": ["iOS", "Android"],
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff",
+          "action": "ikeasa://campaignList",
+          "navLink": [
+            {
+              "titleEn": "Sofas",
+              "titleAR": "كنبات",
+              "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
+              "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
+              "action": "ikeasa://plp?categoryId=fu003"
+            },
+            {
+              "titleEn": "Armchairs & chaise longues",
+              "titleAR": "كراسي بذراعين وأريكات طويلة",
+              "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/armchairs-and-chaise-longues_fu006.jpg?imwidth=300",
+              "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/armchairs-and-chaise-longues_fu006.jpg?imwidth=300",
+              "action": "ikeasa://plp?categoryId=fu006"
+            },
+            {
+              "titleEn": "Footstools & pouffes",
+              "titleAR": "مساند للقدم ومقاعد",
+              "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_Footstools-and-pouffes.jpg?imwidth=300",
+              "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_Footstools-and-pouffes.jpg?imwidth=300",
+              "action": "ikeasa://plp?categoryId=20926"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "titleEn": "HAUGA living room series",
+          "titleAr": "مجموعة HAUGA لغرفة الجلوس",
+          "showTitleInBold": true,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": false,
+          "platforms": ["iOS", "Android"],
+          "imageUrlEn": "https://ikeasa.github.io/home/banner1.png",
+          "imageUrlAr": "https://ikeasa.github.io/home/banner1.png",
+          "action": "ikeasa://plp?categoryId=48957"
+        }
+      ]
+    },
+    {
+      "titleEn": "Popular categories",
+      "titleAr": "تصنيفات شائعة",
+      "showTitleInBold": true,
+      "visibility": true,
+      "showBackground": true,
+      "type": "banner",
+      "size": "medium",
+      "sortOrder": 3,
+      "platforms": ["iOS", "Android"],
+      "childComponents": [
+        {
+          "type": "image",
+          "titleEn": "Beds",
+          "titleAr": "أسرّة",
+          "showTitleInBold": false,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/beds-bm003/",
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+        },
+        {
+          "type": "image",
+          "titleEn": "Mattresses",
+          "titleAr": "مراتب",
+          "showTitleInBold": false,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/mattresses-bm002/",
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+        },
+        {
+          "type": "image",
+          "titleEn": "Wardrobes",
+          "titleAr": "دواليب الملابس",
+          "showTitleInBold": false,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/wardrobes-19053/",
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+        },
+        {
+          "type": "image",
+          "titleEn": "Chest of drawers",
+          "titleAr": "خزائن ذات أدراج",
+          "showTitleInBold": false,
+          "descriptionEn": "A chest of drawers that suits you, your clothes and your space means no more cold mornings searching for your socks. Ours come in styles that match our wardrobes and in different sizes so you can use them around your home, for instance a tall chest of drawers in a narrow hall.",
+          "descriptionAr": "خزانة ذات أدراج تناسبك، وتناسب ملابسك والمساحة المتوفرة لديك تعني أنه ليس عليك بعد الآن البحث عن جواربك في الصباح البارد. تأتي دواليبنا  ذات الأدراج بأشكال تناسب دولاب ملابسك وبأحجام متعددة حتى يمكنك استخدامها في مختلف أنحاء منزلك، حتى في المداخل الضيقة.",
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/chests-of-drawers-10451/",
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+        },
+        {
+          "type": "image",
+          "titleEn": "Sofa",
+          "titleAr": "كنبات",
+          "showTitleInBold": false,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/sofas-fu003/",
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+        },
+        {
+          "type": "image",
+          "titleEn": "Tables & desks",
+          "titleAr": "طاولات ومكاتب",
+          "showTitleInBold": false,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/tables-desks-fu004/",
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+        },
+        {
+          "type": "image",
+          "titleEn": "Bookcases & shelving units",
+          "titleAr": "مكتبات ووحدات رفوف",
+          "showTitleInBold": false,
+          "descriptionEn": null,
+          "descriptionAr": null,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/bookcases-shelving-units-st002/",
+          "imageUrlEn": "https://dummyimage.com/300x170/000/fff",
+          "imageUrlAr": "https://dummyimage.com/300x170/000/fff"
+        }
+      ]
+    },
+    {
+      "type": "productCard",
+      "visibility": true,
+      "platforms": ["iOS", "Android"],
+      "childComponents": [
+        { "itemNo": "19387902", "itemType": "SPR" },
+        { "itemNo": "50211104", "itemType": "ART" },
+        { "itemNo": "90292725", "itemType": "ART" },
+        { "itemNo": "70319028", "itemType": "ART" },
+        { "itemNo": "00433895", "itemType": "ART" },
+        { "itemNo": "60321376", "itemType": "ART" }
+      ],
+      "showTitleInBold": false,
+      "showSeeMore": false,
+      "isDynamic": false
+    }
+  ]
+}
