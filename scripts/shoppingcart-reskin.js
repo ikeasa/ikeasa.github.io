@@ -1,9 +1,13 @@
 (function () {
     'use strict';
-    console.log('redirect loaded v2');
+    console.log('redirect loaded v3');
     const urlParts = window.location.href.split('/');
     const market = urlParts[3];
     const lang = urlParts[4];
+
+    // redirect to new shopping bag
+    window.location.replace("https://securema.ikea.com/sa/" + lang + "/shoppingbag");
+
 
     var PrevURL = document.referrer;
     //shopping list AR
