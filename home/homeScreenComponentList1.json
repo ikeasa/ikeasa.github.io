@@ -1,7 +1,6 @@
 {
   "homeScreenComponentList": [
     {
-      "showBackground": false,
       "type": "banner",
       "size": "small",
       "visibility": true,
@@ -13,62 +12,60 @@
           "titleEn": "News",
           "titleAr": "جديد",
           "showTitleInBold": true,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://plp?apiType=news",
           "imageUrlEn": "https://ikeasa.github.io/home/New.jpg",
-          "imageUrlAr": "https://ikeasa.github.io/home/New.jpg"
+          "imageUrlAr": "https://ikeasa.github.io/home/New.jpg",
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "New lower price",
           "titleAr": "سعر أكثر انخفاضًا",
           "showTitleInBold": true,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://plp?apiType=nlp&title=New%20Lower%20Price",
           "imageUrlEn": "https://ikeasa.github.io/home/NLP.jpg",
-          "imageUrlAr": "https://ikeasa.github.io/home/NLP.jpg"
+          "imageUrlAr": "https://ikeasa.github.io/home/NLP.jpg",
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "20SR or less",
           "titleAr": "20 ريال أو أقل",
           "showTitleInBold": true,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://plp?productGroupId=20SR%20or%20less&title=20SR%20or%20less",
           "imageUrlEn": "https://ikeasa.github.io/home/20SR.jpg",
-          "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg"
+          "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg",
+          "visibility": false
         },
         {
-            "type": "image",
-            "titleEn": "Augmented reality",
-            "titleAr": "الواقع المعزز",
-            "showTitleInBold": true,
-            "descriptionEn": null,
-            "descriptionAr": null,
-            "showTitleInMainComponent": true,
-            "platforms": ["iOS"],
-            "action": "ikeasa://ar",
-            "imageUrlEn": "https://ikeasa.github.io/home/20SR.jpg",
-            "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg"
+          "type": "image",
+          "titleEn": "Augmented reality",
+          "titleAr": "الواقع المعزز",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "platforms": ["iOS"],
+          "action": "ikeasa://ar",
+          "imageUrlEn": "https://ikeasa.github.io/home/20SR.jpg",
+          "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg",
+          "visibility": false
         }
-      ]
+      ],
+      "showTitleInBold": false,
+      "showBackground": false
     },
     {
-      "visibility": true,
-      "showBackground": true,
       "type": "banner",
       "size": "large",
-      "sortOrder": 2,
+      "visibility": true,
       "platforms": ["iOS", "Android"],
+      "sortOrder": 2,
+      "showBackground": true,
       "childComponents": [
         {
           "type": "image",
@@ -77,169 +74,318 @@
           "showTitleInBold": true,
           "descriptionEn": "It's the room where everything comes together. Big or small, your living room gives you the space to socialise, relax, store things, work or even take a nap.",
           "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
-          "showTitleInMainComponent": false,
           "platforms": ["iOS", "Android"],
+          "action": "ikeasa://campaignList",
           "imageUrlEn": "https://ikeasa.github.io/home/banner1.png",
           "imageUrlAr": "https://ikeasa.github.io/home/banner1.png",
-          "action": "ikeasa://campaignList",
-          "navLink": [
-            {
-              "titleEn": "Sofas",
-              "titleAR": "كنبات",
-              "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
-              "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
-              "action": "ikeasa://plp?categoryId=fu003"
-            },
-            {
-              "titleEn": "Armchairs & chaise longues",
-              "titleAR": "كراسي بذراعين وأريكات طويلة",
-              "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/armchairs-and-chaise-longues_fu006.jpg?imwidth=300",
-              "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/armchairs-and-chaise-longues_fu006.jpg?imwidth=300",
-              "action": "ikeasa://plp?categoryId=fu006"
-            },
-            {
-              "titleEn": "Footstools & pouffes",
-              "titleAR": "مساند للقدم ومقاعد",
-              "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_Footstools-and-pouffes.jpg?imwidth=300",
-              "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_Footstools-and-pouffes.jpg?imwidth=300",
-              "action": "ikeasa://plp?categoryId=20926"
-            }
-          ]
+          "showTitleInMainComponent": false,
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "HAUGA living room series",
           "titleAr": "مجموعة HAUGA لغرفة الجلوس",
           "showTitleInBold": true,
-          "descriptionEn": null,
-          "descriptionAr": null,
-          "showTitleInMainComponent": false,
           "platforms": ["iOS", "Android"],
+          "action": "ikeasa://plp?categoryId=48957",
           "imageUrlEn": "https://ikeasa.github.io/home/banner1.png",
           "imageUrlAr": "https://ikeasa.github.io/home/banner1.png",
-          "action": "ikeasa://plp?categoryId=48957"
+          "showTitleInMainComponent": false,
+          "visibility": false
         }
-      ]
+      ],
+      "showTitleInBold": false
     },
     {
+      "type": "banner",
+      "size": "medium",
       "titleEn": "Popular categories",
       "titleAr": "تصنيفات شائعة",
       "showTitleInBold": true,
       "visibility": true,
-      "showBackground": true,
-      "type": "banner",
-      "size": "medium",
-      "sortOrder": 3,
       "platforms": ["iOS", "Android"],
+      "sortOrder": 3,
+      "showBackground": true,
       "childComponents": [
         {
           "type": "image",
           "titleEn": "Beds",
           "titleAr": "أسرّة",
-          "showTitleInBold": false,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/beds-bm003/",
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/beds_bm003.jpg?imwidth=300",
-          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/beds_bm003.jpg?imwidth=300"
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/beds_bm003.jpg?imwidth=300",
+          "showTitleInBold": false,
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "Mattresses",
           "titleAr": "مراتب",
-          "showTitleInBold": false,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/mattresses-bm002/",
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/mattresses_bm002.jpg?imwidth=300",
-          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/mattresses_bm002.jpg?imwidth=300"
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/mattresses_bm002.jpg?imwidth=300",
+          "showTitleInBold": false,
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "Wardrobes",
           "titleAr": "دواليب الملابس",
-          "showTitleInBold": false,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/wardrobes-19053/",
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/wardrobe-shelving_49079.jpg?imwidth=300",
-          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/wardrobe-shelving_49079.jpg?imwidth=300"
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/wardrobe-shelving_49079.jpg?imwidth=300",
+          "showTitleInBold": false,
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "Chest of drawers",
           "titleAr": "خزائن ذات أدراج",
-          "showTitleInBold": false,
-          "descriptionEn": "A chest of drawers that suits you, your clothes and your space means no more cold mornings searching for your socks. Ours come in styles that match our wardrobes and in different sizes so you can use them around your home, for instance a tall chest of drawers in a narrow hall.",
-          "descriptionAr": "خزانة ذات أدراج تناسبك، وتناسب ملابسك والمساحة المتوفرة لديك تعني أنه ليس عليك بعد الآن البحث عن جواربك في الصباح البارد. تأتي دواليبنا  ذات الأدراج بأشكال تناسب دولاب ملابسك وبأحجام متعددة حتى يمكنك استخدامها في مختلف أنحاء منزلك، حتى في المداخل الضيقة.",
           "showTitleInMainComponent": true,
+          "descriptionEn": "A chest of drawers that suits you, your clothes and your space means no more cold mornings searching for your socks. Ours come in styles that match our wardrobes and in different sizes so you can use them around your home, for instance a tall chest of drawers in a narrow hall.",
+          "descriptionAr": "خزانة ذات أدراج تناسبك، وتناسب ملابسك والمساحة المتوفرة لديك تعني أنه ليس عليك بعد الآن البحث عن جواربك في الصباح البارد. تأتي دواليبنا ذات الأدراج بأشكال تناسب دولاب ملابسك وبأحجام متعددة حتى يمكنك استخدامها في مختلف أنحاء منزلك، حتى في المداخل الضيقة.",
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/chests-of-drawers-10451/",
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/chests-of-drawers_10451.jpg?imwidth=400",
-          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/chests-of-drawers_10451.jpg?imwidth=400"
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/chests-of-drawers_10451.jpg?imwidth=400",
+          "showTitleInBold": false,
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "Sofa",
           "titleAr": "كنبات",
-          "showTitleInBold": false,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/sofas-fu003/",
           "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_all-sofas.jpg?imwidth=300",
-          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_all-sofas.jpg?imwidth=300"
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_all-sofas.jpg?imwidth=300",
+          "showTitleInBold": false,
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "Tables & desks",
           "titleAr": "طاولات ومكاتب",
-          "showTitleInBold": false,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/tables-desks-fu004/",
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/table-desk-systems_47423.jpg?imwidth=300",
-          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/table-desk-systems_47423.jpg?imwidth=300"
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/table-desk-systems_47423.jpg?imwidth=300",
+          "showTitleInBold": false,
+          "visibility": false
         },
         {
           "type": "image",
           "titleEn": "Bookcases & shelving units",
           "titleAr": "مكتبات ووحدات رفوف",
-          "showTitleInBold": false,
-          "descriptionEn": null,
-          "descriptionAr": null,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/bookcases-shelving-units-st002/",
           "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=400",
-          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=400"
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=400",
+          "showTitleInBold": false,
+          "visibility": false
         }
       ]
     },
     {
-      "type": "productCard",
+      "type": "banner",
+      "size": "small",
+      "titleEn": "Children’s room",
+      "titleAr": "غرفة الأطفال",
+      "showTitleInBold": true,
       "visibility": true,
       "platforms": ["iOS", "Android"],
       "childComponents": [
-        { "itemNo": "19387902", "itemType": "SPR" },
-        { "itemNo": "50211104", "itemType": "ART" },
-        { "itemNo": "90292725", "itemType": "ART" },
-        { "itemNo": "70319028", "itemType": "ART" },
-        { "itemNo": "00433895", "itemType": "ART" },
-        { "itemNo": "60321376", "itemType": "ART" }
+        {
+          "type": "image",
+          "titleEn": "Cots & cots mattresses",
+          "titleAr": "المهود ومراتب المهود",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/cots-cots-mattresses-18755/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_cots.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_cots.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Baby textiles",
+          "titleAr": "منسوجات المواليد",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/baby-textiles-18690/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/baby-textiles_18690.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/baby-textiles_18690.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Changing, bathing & potty",
+          "titleAr": "تغيير الحفاضات والاستحمام ونونية الأطفال",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/changing-bathing-potty-18701/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_changing-tables-and-nursing.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_changing-tables-and-nursing.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Baby toys",
+          "titleAr": "لعب الأطفال",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/baby-toys-18716/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_baby-toys.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_baby-toys.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Children's beds",
+          "titleAr": "أسرة الأطفال",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/childrens-beds-18723/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/childrens-beds_18723.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/childrens-beds_18723.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Children's mattresses",
+          "titleAr": "مراتب الأطفال",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/childrens-mattresses-18724/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/childrens-mattresses_18724.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/childrens-mattresses_18724.jpg?imwidth=300"
+        }
       ],
-      "showTitleInBold": false,
-      "showSeeMore": false,
-      "isDynamic": false
+      "showBackground": false
+    },
+    {
+      "type": "banner",
+      "size": "small",
+      "titleEn": "Home office",
+      "titleAr": "المكتب المنزلي",
+      "showTitleInBold": true,
+      "visibility": true,
+      "platforms": ["iOS", "Android"],
+      "childComponents": [
+        {
+          "type": "image",
+          "titleEn": "Desks & computer desks",
+          "titleAr": "مكاتب وطاولات كومبيوتر",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/desks-computer-desks-20649/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_desks-and-computer-desks.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_desks-and-computer-desks.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Desk chairs",
+          "titleAr": "كراسي مكتب",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/desk-chairs-20652/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_desk-chairs.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_desk-chairs.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Lighting",
+          "titleAr": "إضاءة",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/lighting-li001/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_work-lamps.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_work-lamps.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Storage units & cabinets",
+          "titleAr": "خزائن تخزين",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/storage-units-cabinets-10385/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_storage-cabinets.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_storage-cabinets.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Drawer units",
+          "titleAr": "وحدة أدراج",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/drawer-units-10711/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_drawer-units.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_drawer-units.jpg?imwidth=300"
+        },
+        {
+          "type": "image",
+          "titleEn": "Wall shelves",
+          "titleAr": "رفوف جدارية",
+          "showTitleInBold": true,
+          "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
+          "platforms": ["iOS", "Android"],
+          "action": "https://www.ikea.com/sa/en/cat/wall-shelves-10398/",
+          "visibility": true,
+          "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_wall-shelves.jpg?imwidth=300",
+          "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_wall-shelves.jpg?imwidth=300"
+        }
+      ],
+      "showBackground": false
     }
   ]
 }
