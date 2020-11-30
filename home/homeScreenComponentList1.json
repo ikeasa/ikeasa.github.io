@@ -494,8 +494,8 @@
     },
     {
       "type": "productCard",
-      "titleEn": "Recently viewed",
-      "titleAr": "منتجات تم مشاهدتها حديثًا",
+      "titleEn": "Featured products",
+      "titleAr": "منتجات مميزة",
       "visibility": true,
       "platforms": ["iOS", "Android"],
       "childComponents": [
