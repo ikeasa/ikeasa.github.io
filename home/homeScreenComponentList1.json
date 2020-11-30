@@ -15,6 +15,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://plp?apiType=news",
+          "sortOrder": 1,
           "imageUrlEn": "https://ikeasa.github.io/home/New.jpg",
           "imageUrlAr": "https://ikeasa.github.io/home/New.jpg",
           "visibility": false
@@ -27,6 +28,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://plp?apiType=nlp&title=New%20Lower%20Price",
+          "sortOrder": 2,
           "imageUrlEn": "https://ikeasa.github.io/home/NLP.jpg",
           "imageUrlAr": "https://ikeasa.github.io/home/NLP.jpg",
           "visibility": false
@@ -39,6 +41,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://plp?productGroupId=20SR%20or%20less&title=20SR%20or%20less",
+          "sortOrder": 3,
           "imageUrlEn": "https://ikeasa.github.io/home/20SR.jpg",
           "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg",
           "visibility": false
@@ -51,6 +54,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS"],
           "action": "ikeasa://ar",
+          "sortOrder": 4,
           "imageUrlEn": "https://ikeasa.github.io/home/20SR.jpg",
           "imageUrlAr": "https://ikeasa.github.io/home/20SR.jpg",
           "visibility": false
@@ -76,6 +80,7 @@
           "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
+          "sortOrder": 1,
           "imageUrlEn": "https://ikeasa.github.io/home/banner1.png",
           "imageUrlAr": "https://ikeasa.github.io/home/banner1.png",
           "navLink": [
@@ -111,6 +116,7 @@
           "showTitleInBold": true,
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://plp?categoryId=48957",
+          "sortOrder": 2,
           "imageUrlEn": "https://ikeasa.github.io/home/banner1.png",
           "imageUrlAr": "https://ikeasa.github.io/home/banner1.png",
           "showTitleInMainComponent": false,
@@ -137,6 +143,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/beds-bm003/",
+          "sortOrder": 1,
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/beds_bm003.jpg?imwidth=300",
           "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/beds_bm003.jpg?imwidth=300",
           "showTitleInBold": false,
@@ -149,6 +156,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/mattresses-bm002/",
+          "sortOrder": 2,
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/mattresses_bm002.jpg?imwidth=300",
           "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/mattresses_bm002.jpg?imwidth=300",
           "showTitleInBold": false,
@@ -161,6 +169,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/wardrobes-19053/",
+          "sortOrder": 3,
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/wardrobe-shelving_49079.jpg?imwidth=300",
           "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/wardrobe-shelving_49079.jpg?imwidth=300",
           "showTitleInBold": false,
@@ -175,6 +184,7 @@
           "descriptionAr": "خزانة ذات أدراج تناسبك، وتناسب ملابسك والمساحة المتوفرة لديك تعني أنه ليس عليك بعد الآن البحث عن جواربك في الصباح البارد. تأتي دواليبنا ذات الأدراج بأشكال تناسب دولاب ملابسك وبأحجام متعددة حتى يمكنك استخدامها في مختلف أنحاء منزلك، حتى في المداخل الضيقة.",
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/chests-of-drawers-10451/",
+          "sortOrder": 4,
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/chests-of-drawers_10451.jpg?imwidth=400",
           "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/chests-of-drawers_10451.jpg?imwidth=400",
           "showTitleInBold": false,
@@ -187,6 +197,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/sofas-fu003/",
+          "sortOrder": 5,
           "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_all-sofas.jpg?imwidth=300",
           "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_all-sofas.jpg?imwidth=300",
           "showTitleInBold": false,
@@ -199,6 +210,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/tables-desks-fu004/",
+          "sortOrder": 6,
           "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/table-desk-systems_47423.jpg?imwidth=300",
           "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/table-desk-systems_47423.jpg?imwidth=300",
           "showTitleInBold": false,
@@ -211,6 +223,7 @@
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
           "action": "https://www.ikea.com/sa/en/cat/bookcases-shelving-units-st002/",
+          "sortOrder": 7,
           "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=400",
           "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=400",
           "showTitleInBold": false,
@@ -226,6 +239,7 @@
       "showTitleInBold": true,
       "visibility": true,
       "platforms": ["iOS", "Android"],
+      "sortOrder": 4,
       "childComponents": [
         {
           "type": "image",
@@ -236,6 +250,7 @@
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
+          "sortOrder": 1,
           "imageUrlEn": "https://www.ikea.com/images/a-red-sofa-with-white-floral-design-in-front-of-a-window-lot-03eb97614676614af504862ac5ecaf53.jpg?f=xxxs",
           "imageUrlAr": "https://www.ikea.com/images/a-red-sofa-with-white-floral-design-in-front-of-a-window-lot-03eb97614676614af504862ac5ecaf53.jpg?f=xxxs",
           "navLink": [
@@ -322,6 +337,7 @@
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
+          "sortOrder": 2,
           "imageUrlEn": "https://www.ikea.com/images/a-bedroom-containing-a-green-tufjord-bed-with-regolit-lampsh-2036339bd3fbfce67fea02b7aa1fa57f.jpg?f=xxxs",
           "imageUrlAr": "https://www.ikea.com/images/a-bedroom-containing-a-green-tufjord-bed-with-regolit-lampsh-2036339bd3fbfce67fea02b7aa1fa57f.jpg?f=xxxs",
           "navLink": [
@@ -381,6 +397,7 @@
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
+          "sortOrder": 3,
           "imageUrlEn": "https://www.ikea.com/images/a-sundvik-cot-with-roedhake-bed-linen-cosy-cushions-and-soft-b60358ba2727a34b23dd308095e30c5a.jpg?f=xxxs",
           "imageUrlAr": "https://www.ikea.com/images/a-sundvik-cot-with-roedhake-bed-linen-cosy-cushions-and-soft-b60358ba2727a34b23dd308095e30c5a.jpg?f=xxxs",
           "navLink": [
@@ -449,6 +466,7 @@
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
+          "sortOrder": 4,
           "imageUrlEn": "https://www.ikea.com/images/a-desk-swivel-chair-wall-mounted-shelf-and-a-pegboard-in-whi-2b5a2701ae002fc6b7e2143f1d867998.jpg?f=xxxs",
           "imageUrlAr": "https://www.ikea.com/images/a-desk-swivel-chair-wall-mounted-shelf-and-a-pegboard-in-whi-2b5a2701ae002fc6b7e2143f1d867998.jpg?f=xxxs",
           "navLink": [
