@@ -76,8 +76,6 @@
           "titleEn": "Let your home flourish again",
           "titleAr": "بيتك دائمًا عامر",
           "showTitleInBold": true,
-          "descriptionEn": "It's the room where everything comes together. Big or small, your living room gives you the space to socialise, relax, store things, work or even take a nap.",
-          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "sortOrder": 1,
@@ -247,6 +245,8 @@
           "titleAr": "غرفة الجلوس",
           "showTitleInBold": true,
           "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
@@ -257,8 +257,6 @@
             {
               "titleEn": "Sofas",
               "titleAr": "كنبات",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=fu003"
@@ -266,8 +264,6 @@
             {
               "titleEn": "Armchairs & chaise longues",
               "titleAr": "كراسي بذراعين وأريكات طويلة",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/armchairs-and-chaise-longues_fu006.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/armchairs-and-chaise-longues_fu006.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=fu006"
@@ -275,8 +271,6 @@
             {
               "titleEn": "Footstools & pouffes",
               "titleAr": "مساند للقدم ومقاعد",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_Footstools-and-pouffes.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_Footstools-and-pouffes.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=20926"
@@ -284,8 +278,6 @@
             {
               "titleEn": "Coffee & side tables",
               "titleAr": "طاولات قهوة وطاولات جانبية",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/coffee-side-tables_10705.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/coffee-side-tables_10705.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=10705"
@@ -293,8 +285,6 @@
             {
               "titleEn": "TV & media furniture",
               "titleAr": "مكتبات التلفزيون وأجهزة الميديا",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_tv-and-media-storage.jpg?imwidth=30",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_tv-and-media-storage.jpg?imwidth=30",
               "action": "ikeasa://plp?categoryId=10475"
@@ -302,8 +292,6 @@
             {
               "titleEn": "Bookcases",
               "titleAr": "مكتبات",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_bookcases.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=10382"
@@ -311,8 +299,6 @@
             {
               "titleEn": "Cabinets & cupboards",
               "titleAr": "خزائن",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_cabinets-and-cupboards.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_cabinets-and-cupboards.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=st003"
@@ -320,8 +306,6 @@
             {
               "titleEn": "Textiles",
               "titleAr": "منسوجات",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/bedspreads_20527.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/bedspreads_20527.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=tl001"
@@ -334,6 +318,8 @@
           "titleAr": "غرفة النوم",
           "showTitleInBold": true,
           "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
@@ -344,8 +330,6 @@
             {
               "titleEn": "Double beds",
               "titleAr": "سرير مزدوج",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=16284"
@@ -353,8 +337,6 @@
             {
               "titleEn": "Guest beds & day beds",
               "titleAr": "أسرة ضيوف وأسرة نهارية",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/guest-beds-and-day-beds_19037.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/guest-beds-and-day-beds_19037.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=19037"
@@ -362,8 +344,6 @@
             {
               "titleEn": "Single beds",
               "titleAr": "سرير مفرد",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=16285"
@@ -371,8 +351,6 @@
             {
               "titleEn": "Mattresses",
               "titleAr": "مراتب",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=bm002"
@@ -380,8 +358,6 @@
             {
               "titleEn": "Bedding",
               "titleAr": "فرش السرير",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/double-beds_16284.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=tl004"
@@ -394,6 +370,8 @@
           "titleAr": "غرفة الأطفال",
           "showTitleInBold": true,
           "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
@@ -404,8 +382,6 @@
             {
               "titleEn": "Cots & cots mattresses",
               "titleAr": "المهود ومراتب المهود",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_cots.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_cots.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=18755"
@@ -413,8 +389,6 @@
             {
               "titleEn": "Baby textiles",
               "titleAr": "منسوجات المواليد",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/baby-textiles_18690.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/baby-textiles_18690.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=18690"
@@ -422,8 +396,6 @@
             {
               "titleEn": "Changing, bathing & potty",
               "titleAr": "تغيير الحفاضات والاستحمام ونونية الأطفال",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_changing-tables-and-nursing.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_changing-tables-and-nursing.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=18701"
@@ -431,8 +403,6 @@
             {
               "titleEn": "Baby toys",
               "titleAr": "لعب الأطفال",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_baby-toys.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_baby-toys.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=18716"
@@ -440,8 +410,6 @@
             {
               "titleEn": "Children's beds",
               "titleAr": "أسرة الأطفال",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/childrens-beds_18723.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/childrens-beds_18723.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=18723"
@@ -449,8 +417,6 @@
             {
               "titleEn": "Children's mattresses",
               "titleAr": "مراتب الأطفال",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/childrens-mattresses_18724.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/revamp/childrens-mattresses_18724.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=18724"
@@ -463,6 +429,8 @@
           "titleAr": "المكتب المنزلي",
           "showTitleInBold": true,
           "showTitleInMainComponent": true,
+          "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
           "platforms": ["iOS", "Android"],
           "action": "ikeasa://campaignList",
           "visibility": true,
@@ -473,8 +441,6 @@
             {
               "titleEn": "Desks & computer desks",
               "titleAr": "مكاتب وطاولات كومبيوتر",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_desks-and-computer-desks.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_desks-and-computer-desks.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=20649"
@@ -482,8 +448,6 @@
             {
               "titleEn": "Desk chairs",
               "titleAr": "كراسي مكتب",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_desk-chairs.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_desk-chairs.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=20652"
@@ -491,8 +455,6 @@
             {
               "titleEn": "Lighting",
               "titleAr": "إضاءة",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_work-lamps.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_work-lamps.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=li001"
@@ -500,8 +462,6 @@
             {
               "titleEn": "Storage units & cabinets",
               "titleAr": "خزائن تخزين",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_storage-cabinets.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_storage-cabinets.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=10385"
@@ -509,8 +469,6 @@
             {
               "titleEn": "Drawer units",
               "titleAr": "وحدة أدراج",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_drawer-units.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_drawer-units.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=10711"
@@ -518,8 +476,6 @@
             {
               "titleEn": "Wall shelves",
               "titleAr": "رفوف جدارية",
-              "descriptionEn": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-              "descriptionAr": "إنها المكان الذي يجتمع فيه كل شيء. سواء كانت كبيرة أو صغيرة، غرفة الجلوس الخاصة بك توفر لك المساحة للتجمع مع العائلة والأصدقاء والاسترخاء وتخزين الأغراض والعمل وحتى الاستمتاع بقيلولة قصيرة.",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_wall-shelves.jpg?imwidth=300",
               "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_wall-shelves.jpg?imwidth=300",
               "action": "ikeasa://plp?categoryId=10398"
