@@ -90,6 +90,13 @@
               "action": "ikeasa://plp?categoryId=fu003"
             },
             {
+              "titleEn": "Sofas (weblink)",
+              "titleAr": "كنبات",
+              "imageUrlEn": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
+              "imageUrlAr": "https://shop.static.ingka.ikea.com/category-images/Category_sofas-and-armchairs.jpg?imwidth=300",
+              "action": "https://www.ikea.com/sa/en/cat/sofas-fu003/"
+            },
+            {
               "titleEn": "Armchairs & chaise longues",
               "titleAr": "كراسي بذراعين وأريكات طويلة",
               "imageUrlEn": "https://shop.static.ingka.ikea.com/revamp/armchairs-and-chaise-longues_fu006.jpg?imwidth=300",
@@ -484,6 +491,24 @@
         }
       ],
       "showBackground": false
+    },
+    {
+      "type": "productCard",
+      "titleEn": "Recently viewed",
+      "titleAr": "منتجات تم مشاهدتها حديثًا",
+      "visibility": true,
+      "platforms": ["iOS", "Android"],
+      "childComponents": [
+        { "itemNo": "19387902", "itemType": "SPR" },
+        { "itemNo": "50211104", "itemType": "ART" },
+        { "itemNo": "90292725", "itemType": "ART" },
+        { "itemNo": "70319028", "itemType": "ART" },
+        { "itemNo": "00433895", "itemType": "ART" },
+        { "itemNo": "60321376", "itemType": "ART" }
+      ],
+      "showTitleInBold": false,
+      "showSeeMore": false,
+      "isDynamic": false
     }
   ]
 }
