@@ -1,6 +1,7 @@
 {
   "homeScreenComponentList": [
     {
+      "version": "2020-12-10T12:26:44.958Z",
       "type": "banner",
       "size": "small",
       "visibility": true,
@@ -14,7 +15,7 @@
           "showTitleInBold": true,
           "showTitleInMainComponent": true,
           "platforms": ["iOS", "Android"],
-          "action": "ikeasa://plp?apiType=news",
+          "action": "ikeasa://plp?apiType=new_product",
           "sortOrder": 1,
           "imageUrlEn": "https://ikeasa.github.io/home/New.jpg",
           "imageUrlAr": "https://ikeasa.github.io/home/New.jpg",
